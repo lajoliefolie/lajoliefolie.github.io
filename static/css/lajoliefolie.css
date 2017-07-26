@@ -14,27 +14,48 @@ h2 {
 h1, h2 {
     color: #172121;
 }
+h5 {
+    font-weight: bold;
+}
+
 .btn {
     width: 112px !important;
-    margin-right: 10px;
+    margin: 0px 10px;
     background-color: #aa78a6;
     color: #ffffff;
     border: 2px solid #34113f;
+    /*margin-left: auto;*/
+    /*margin-right: 0px;*/
 }
 .btn:hover{
     background-color:#34113f;
     
     border: 2px solid #34113f;
 }
+.button-list {
+    width:480px;
+    height: 46px;
+    list-style-type: none;
+    margin: 0 auto;
+    margin-top: 1px;
+}
+.button-list li {
+    text-align: center;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
 .content {
     margin-top: 20px;
 }
+
 .img-circle {
     border-radius: 50%;
 }
 .make-center{
    width:100%;
-   max-width: 700px;
+   max-width: 780px;
    margin: 0px auto;
 }
 .name {
@@ -48,9 +69,7 @@ h1, h2 {
    height: auto;
    margin-left: 10%;
 }
-.nav-pills {
-    margin: 5px 10px 5px 0px;
-}
+
 .profile_pic {
     height: auto; 
     width: auto; 
@@ -61,5 +80,23 @@ h1, h2 {
 }
 .section-title {
     font-style: oblique;
-    
+    text-decoration: underline;
+}
+
+.resume-left {
+    display: inline-block;
+}
+
+.resume-right {
+    /*float: right;*/
+    /*position: relative;*/
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.resume-row {
+    display:block;
+    margin:0px;
+    position: relative;
 }
