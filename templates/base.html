@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ url_for('static', filename='css/lajoliefolie.css') }}" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
+    {% block extra_header %}{% endblock %}
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1 class="name">Christine Lewis</h1>
+            </div>
+            <div class="col-sm-6">
+                <ul class="nav nav-pills">
+                    <li><a class="btn btn-large btn-primary" href="aboutme">About Me</a></li>
+                    <li><a class="btn btn-large btn-primary" href="resume">Résumé</a></li>
+                    <li><a class="btn btn-large btn-primary" href="links">Links</a></li>
+                    <!--<li><a class="btn btn-large btn-primary" href="https://github.com/lajoliefolie" target="_blank">GitHub</a></li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container content">
+        {% block content %}{% endblock %}
+    </div>
+</body>
