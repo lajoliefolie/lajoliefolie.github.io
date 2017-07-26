@@ -1,2 +1,0 @@
-# lajoliefolie
-Personal website code
