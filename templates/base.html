@@ -1,8 +1,13 @@
 <!DOCTYPE html>
+<html lang="en_US">
 <head>
     <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ url_for('static', filename='css/lajoliefolie.css') }}" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The personal website of Christine Lewis, a Charleston-based software engineer.">
+    <meta name="author" content="Christine Lewis">
     {% block extra_header %}{% endblock %}
 </head>
 <body>
@@ -24,3 +29,4 @@
         {% block content %}{% endblock %}
     </div>
 </body>
+</html>

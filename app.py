@@ -1,11 +1,13 @@
 #!/usr/bin/env python
-from flask import Flask
+from flask import Flask, render_template, Blueprint
 import os
 from controllers.pages import pages
+from controllers.projects import projects
 
 app = Flask(__name__)
 
 app.register_blueprint(pages, url_prefix='/')
+app.register_blueprint(projects, url_prefix='/projects')
 
 if __name__ == "__main__":
     """
