@@ -10,8 +10,9 @@ body {
 }
 h2 {
     font-style: italic;
+    color: #172121;
 }
-h1, h2 {
+h1{
     color: #172121;
 }
 h5 {
@@ -24,24 +25,20 @@ h5 {
     background-color: #aa78a6;
     color: #ffffff;
     border: 2px solid #34113f;
-    /*margin-left: auto;*/
-    /*margin-right: 0px;*/
 }
 .btn:hover{
     background-color:#34113f;
-    
     border: 2px solid #34113f;
 }
+.header-item {
+    vertical-align: middle;
+    text-align: center;
+    margin: 5px 44px 5px 0px;
+}
 .button-list {
-    width:480px;
-    height: 46px;
     list-style-type: none;
-    margin: 0 auto;
-    margin-top: 1px;
 }
 .button-list li {
-    text-align: center;
-    margin: 0 auto;
     background-position: center;
     background-repeat: no-repeat;
     float: left;
@@ -49,26 +46,20 @@ h5 {
 .content {
     margin-top: 20px;
 }
-
 .img-circle {
     border-radius: 50%;
 }
-.make-center{
+.narrow{
    width:100%;
    max-width: 780px;
    margin: 0px auto;
 }
-.name {
-    vertical-align: middle;
-    text-align: center;
-    margin: 5px 44px 5px 0px;
-}
-.narrow{
-   width: 80%;
-   max-width: 700px;
-   height: auto;
-   margin-left: 10%;
-}
+/*.narrow{*/
+/*   width: 80%;*/
+/*   max-width: 700px;*/
+/*   height: auto;*/
+/*   margin-left: 10%;*/
+/*}*/
 
 .profile_pic {
     height: auto; 
